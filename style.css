@@ -9,7 +9,7 @@
     margin: 0 auto;
     width: 100%;
     /* 📍 Максимальная ширина для контейнера */
-    max-width: 1440px;
+    max-width: 1140px;
     padding: 0 150px;
 
 }
@@ -38,6 +38,7 @@ header span {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .main-section .wrapper {
@@ -49,7 +50,7 @@ header span {
 
 .text-wrapper {
     /* 📍 Cвойство для ограничения ширины блока с текстом в первой секции */
-    min-width: 425px;
+    max-width: 425px;
 }
 
 .main-title {
